@@ -1,7 +1,11 @@
 [project]
-name = "langchain"
-version = "0.1.0"
+name = "langchain-learning"
+version = "3.14"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "langchain>=0.1.0",
+    "langchain-google-genai>=1.0.1",
+    "python-dotenv>=1.2.2",
+]
